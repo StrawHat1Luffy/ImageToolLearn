@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  ImageToolLearn:
+    image: transloadit/companion
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - /app/node_modules
+      - /mnt/ImageToolLearn-server-data:/mnt/ImageToolLearn-server-data
+    ports:
+      - '3020:3020'
+    env_file:
+      - .env
