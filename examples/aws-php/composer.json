@@ -1,0 +1,7 @@
+{
+  "name": "transloadit/ImageToolLearn-aws-demo",
+  "type": "project",
+  "require": {
+    "aws/aws-sdk-php": "^3.31"
+  }
+}
