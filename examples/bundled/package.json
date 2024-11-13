@@ -1,0 +1,22 @@
+{
+  "name": "@ImageToolLearn-example/bundled",
+  "version": "0.0.0",
+  "dependencies": {
+    "@ImageToolLearn/core": "workspace:*",
+    "@ImageToolLearn/dashboard": "workspace:*",
+    "@ImageToolLearn/google-drive": "workspace:*",
+    "@ImageToolLearn/instagram": "workspace:*",
+    "@ImageToolLearn/tus": "workspace:*",
+    "@ImageToolLearn/url": "workspace:*",
+    "@ImageToolLearn/webcam": "workspace:*"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
+  }
+}
